@@ -1,0 +1,68 @@
+{
+  "name": "quese",
+  "version": "1.1.1",
+  "main": "./node/index.js",
+  "browser": "./dist/main.js",
+  "description": "Package that make easier the searching process in javascript, through Embeddings and Semantic Similarity",
+  "type": "module",
+  "homepage": "https://github.com/arnaucanela11/quese.js",
+  "author": {
+    "name": "Arnau Canela",
+    "url": "https://www.youtube.com/channel/UCDX2fnJrme-G4x1noIJ1rvA",
+    "email": "arnau.canela22@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/arnaucanela11/quese.js"
+  },
+  "keywords": [
+    "search",
+    "embeddings serach",
+    "searching",
+    "javascript",
+    "semantic similarity",
+    "quese"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "rollup -c rollup.config.js",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@xenova/transformers": "^2.5.4",
+    "lodash": "^4.17.21",
+    "rollup-plugin-import-css": "^3.3.3",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
+    "web-worker": "^1.2.0"
+  },
+  "devDependencies": {
+    "@babel/preset-react": "^7.22.15",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-image": "^3.0.2",
+    "@rollup/plugin-json": "^6.0.0",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^8.0.0",
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.5.1",
+    "eslint": "^8.45.0",
+    "eslint-plugin-react": "^7.32.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.3",
+    "onnxruntime-common": "^1.15.1",
+    "onnxruntime-web": "^1.16.0-dev.20230907-0a3eb60b01",
+    "rollup": "^3.29.0",
+    "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-postcss": "^4.0.2",
+    "vite": "^4.4.5"
+  }
+}
