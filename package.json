@@ -1,11 +1,11 @@
 {
   "name": "quese",
-  "version": "1.1.1",
+  "version": "1.1.4",
   "main": "./node/index.js",
   "browser": "./dist/main.js",
   "description": "Package that make easier the searching process in javascript, through Embeddings and Semantic Similarity",
   "type": "module",
-  "homepage": "https://github.com/arnaucanela11/quese.js",
+  "homepage": "https://github.com/arnaucanela11/Quese",
   "author": {
     "name": "Arnau Canela",
     "url": "https://www.youtube.com/channel/UCDX2fnJrme-G4x1noIJ1rvA",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/arnaucanela11/quese.js"
+    "url": "https://github.com/arnaucanela11/Quese"
   },
   "keywords": [
     "search",
@@ -31,12 +31,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@xenova/transformers": "^2.5.4",
-    "lodash": "^4.17.21",
-    "rollup-plugin-import-css": "^3.3.3",
-    "rollup-plugin-node-builtins": "^2.1.2",
-    "rollup-plugin-node-globals": "^1.4.0",
-    "web-worker": "^1.2.0"
+    "@xenova/transformers": "^2.5.4"
   },
   "devDependencies": {
     "@babel/preset-react": "^7.22.15",
@@ -62,6 +57,9 @@
     "onnxruntime-web": "^1.16.0-dev.20230907-0a3eb60b01",
     "rollup": "^3.29.0",
     "rollup-plugin-copy": "^3.5.0",
+    "rollup-plugin-import-css": "^3.3.3",
+    "rollup-plugin-node-builtins": "^2.1.2",
+    "rollup-plugin-node-globals": "^1.4.0",
     "rollup-plugin-postcss": "^4.0.2",
     "vite": "^4.4.5"
   }

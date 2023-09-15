@@ -5,9 +5,9 @@ The package is available **in python** (pip) as well: https://pypi.org/project/q
 
 ### The module provides:<br>
 
-- **Searcher**: a **REACT COMPONENT with a search algoritm and a UI implemented yet**. However, you can customize the search algoritm and the UI of the component by pasing diferent **props**. [More information about the Searcher props below.](#searcher-props) <br>
+- **Searcher**: a **REACT COMPONENT with a search algoritm and a UI implemented yet**. However, you can customize the search algoritm and the UI of the component by pasing diferent **props**. [More information about the Searcher props below.](#1.-seacher-props:) <br>
 
-- **searchByEmbeddings()**: an **asynchronous FUNCTION** with several **params** to customize the searching process. [More information about the searchByEmbeddings() params below.](#search-params)<br><br>
+- **searchByEmbeddings()**: an **asynchronous FUNCTION** with several **params** to customize the searching process. [More information about the searchByEmbeddings() params below.](#2.-seachbyembeddings()-params:)<br><br>
 
 ## COMPATIBILITY
 
@@ -21,10 +21,14 @@ The package is available **in python** (pip) as well: https://pypi.org/project/q
 ## USAGE
 
 ### 1. Searcher component:
+<br>
 
 ![Example of an implementation of the Searcher component.](/assets/SearcherExample.png)
 
+<br>
+
 ### 2. searchByEmbeddings function:
+<br>
 
 ![Example of an implementation of the searchByEmbeddings function.](/assets/searchByExample.png)
 
@@ -56,7 +60,7 @@ console.log(results)
 ## PARAMS AND PROPS
 
 
-### 1. Seacher props: {#searcher-props}
+### 1. Seacher props:
 <br>
 
 | Name                   |                                 Required                                  |             Format             |                                                               Description                                                               | Default value |
@@ -79,9 +83,9 @@ console.log(results)
 | **placeholder**        |                   <span style="color:red">false</span>                    |             String             |                                                    The typical input placeholder...                                                     |  "Search..."  |
 | **prevResults**        |                   <span style="color:red">false</span>                    |             String             |                 Boolean value to define if the previous results (the results between the input) will be charged or not                  |     true      |
 
-<br>
+<br><br>
 
-###  2. seachByEmbeddings() params: {#search-params}
+###  2. seachByEmbeddings() params:
 <br>
 
 | Name         |                       Required                        |             Format             |                                                                              Description                                                                               |       Default value       |
