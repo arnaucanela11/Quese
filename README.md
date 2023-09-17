@@ -1,5 +1,9 @@
 # QUESE
 
+```bash
+npm i quese
+```
+
 **"Quese"** allows you implement in an easy way a **Search Algoritm, based on Embeddings and Semantic Similarity**, in your JavaScripts apps.
 The package is available **in python** (pip) as well: https://pypi.org/project/quese/ <br><br>
 
