@@ -9,9 +9,11 @@ The package is available **in python** (pip) as well: https://pypi.org/project/q
 
 ### The module provides:<br>
 
-- **Searcher**: a **REACT COMPONENT with a search algoritm and a UI implemented yet**. However, you can customize the search algoritm and the UI of the component by pasing diferent **props**. [More information about the Searcher props below.](#1.-seacher-props:) <br>
+- **Searcher**: a **REACT COMPONENT with a search algoritm and a UI implemented yet**. However, you can customize the search algoritm and the UI of the component by pasing diferent **props**. [More information about the Searcher props below.](#1.-seacher-props:)
+<br>
 
-- **searchByEmbeddings()**: an **asynchronous FUNCTION** with several **params** to customize the searching process. [More information about the searchByEmbeddings() params below.](#2.-seachbyembeddings()-params:)<br><br>
+- **searchByEmbeddings()**: an **asynchronous FUNCTION** with several **params** to customize the searching process. [More information about the searchByEmbeddings() params below.](#2.-seachbyembeddings()-params:)
+  <br><br>
 
 ## COMPATIBILITY
 
@@ -89,7 +91,7 @@ console.log(results)
 
 <br><br>
 
-###  2. seachByEmbeddings() params:
+### 2. seachByEmbeddings() params:
 <br>
 
 | Name         |                       Required                        |             Format             |                                                                              Description                                                                               |       Default value       |
